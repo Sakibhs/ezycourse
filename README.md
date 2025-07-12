@@ -1,16 +1,23 @@
-# ezycourse
+# EzyCourse Flutter App
 
-A new Flutter project.
+EzyCourse is a community-based educational mobile application built using Flutter. It supports user authentication, posting, liking, and interacting within a Python developer community space.
 
-## Getting Started
+## Features Implemented
 
-This project is a starting point for a Flutter application.
+-  Login with BLoC + MVVM pattern using remote API
+-  Remember Me support with local SharedPreferences
+-  Community News Feed Page
+    - View all posts
+    - Post text updates
+    - Like/Unlike posts
+    - Real-time UI update on like toggle
+-  Post creation feedback using Snackbar
+-  Like action via API (`createLike`)
+-  Relative time rendering for post timestamps (e.g. `2 days ago`)
+-  Logout with BLoC + API call
+-  Clean folder structure using `MVVM` + `BLoC` + `Repository` pattern
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Folder Structure (Clean MVVM + BLoC)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
